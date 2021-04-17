@@ -7,6 +7,8 @@ import { RegisterComponent } from './register/register.component';
 
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NavComponent } from './nav/nav.component';
+import { GraphQLModule } from './graphql.module';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { NavComponent } from './nav/nav.component';
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
+    GraphQLModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
