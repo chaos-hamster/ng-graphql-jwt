@@ -11,6 +11,7 @@ import { GraphQLModule } from './graphql.module';
 import { HttpClientModule } from '@angular/common/http';
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
+import { UnauthorizedComponent } from './unauthorized/unauthorized.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HomeComponent } from './home/home.component';
     RegisterComponent,
     NavComponent,
     LoginComponent,
-    HomeComponent
+    HomeComponent,
+    UnauthorizedComponent
   ],
   imports: [
     BrowserModule,
